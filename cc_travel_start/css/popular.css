@@ -1,0 +1,135 @@
+.popular-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-gap: 2em;
+    grid-template-areas:
+    'header header header'
+    'pop-1 pop-2 pop-3'
+    'pop-4 pop-5 pop-6';
+    color: white;
+}
+
+.popular-header {
+    color: black;
+    text-align: center;
+    grid-area: header;
+    display: grid;
+    font-size: 25px;
+}
+
+.popular-header h3 {
+    font-size: 10px;
+}
+
+.popular-bg-1 {
+    background-image: url(/Users/gaz/codeclan_work/week_03/day_2/02_grid_flexbox_lab/cc_travel_start/img/destination/america.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: pop-1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.popular-bg-2 {
+    background-image: url(/Users/gaz/codeclan_work/week_03/day_2/02_grid_flexbox_lab/cc_travel_start/img/destination/brazil.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: pop-2;
+    display: flex;
+    align-items: flex-end;
+}
+
+.popular-bg-3 {
+    background-image: url(/Users/gaz/codeclan_work/week_03/day_2/02_grid_flexbox_lab/cc_travel_start/img/destination/indonesia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: pop-3;
+    display: flex;
+    align-items: flex-end;
+}
+
+.popular-bg-4 {
+    background-image: url(/Users/gaz/codeclan_work/week_03/day_2/02_grid_flexbox_lab/cc_travel_start/img/destination/italy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    grid-area: pop-4;
+    align-items: flex-end;
+}
+
+.popular-bg-5 {
+    background-image: url(/Users/gaz/codeclan_work/week_03/day_2/02_grid_flexbox_lab/cc_travel_start/img/destination/maldives.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    grid-area: pop-5;
+    align-items: flex-end;
+}
+
+.popular-bg-6 {
+    background-image: url(/Users/gaz/codeclan_work/week_03/day_2/02_grid_flexbox_lab/cc_travel_start/img/destination/nepal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    grid-area: pop-6;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.popular-1 a {
+    align-self: end;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #60B99A;
+        display: block;
+        padding: 15px;
+        
+}
+
+.popular-1 p {
+    font-size: 20px;
+    vertical-align: baseline;
+}
+
+.popular {
+    
+}
+
+.pop-place-1 {
+    background-image: url(/Users/gaz/codeclan_work/week_03/day_2/02_grid_flexbox_lab/cc_travel_start/img/place/california_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pop-place-2 {
+    background-image: url(/Users/gaz/codeclan_work/week_03/day_2/02_grid_flexbox_lab/cc_travel_start/img/place/california.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pop-place-3 {
+    background-image: url(/Users/gaz/codeclan_work/week_03/day_2/02_grid_flexbox_lab/cc_travel_start/img/place/iceland.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pop-place-4 {
+    background-image: url(/Users/gaz/codeclan_work/week_03/day_2/02_grid_flexbox_lab/cc_travel_start/img/place/korola_megna.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pop-place-5 {
+    background-image: url(/Users/gaz/codeclan_work/week_03/day_2/02_grid_flexbox_lab/cc_travel_start/img/place/london.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pop-place-6 {
+    background-image: url(/Users/gaz/codeclan_work/week_03/day_2/02_grid_flexbox_lab/cc_travel_start/img/place/miami.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
